@@ -9,7 +9,7 @@ window.addEventListener("load", function() {
 	console.log('auto play is set to '+video.autoplay);
 	console.log('loop is set to '+video.loop);
 	volume = document.querySelector("#volume");
-    volume.innerHTML = video.volume * 100 + "%";
+    volume.innerHTML = video.volume * 0 + "%";
 });
 
 document.querySelector("#play").addEventListener("click", function() {
