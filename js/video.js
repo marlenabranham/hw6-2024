@@ -1,4 +1,5 @@
 var video;
+var volume;
 
 window.addEventListener("load", function() {
 console.log("Good job opening the window")
